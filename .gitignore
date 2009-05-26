@@ -1,0 +1,14 @@
+*.o
+
+.version
+
+rzd?-?.?.bin
+rzd?.data
+
+rzd??.elf
+rzd??.slot
+
+title.bin
+
+zero16k
+FAILURE

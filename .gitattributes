@@ -1,0 +1,3 @@
+*.b    -crlf -diff -merge
+*.png  -crlf -diff -merge
+*.ppm  -crlf -diff -merge
