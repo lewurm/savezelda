@@ -5,8 +5,8 @@
 #include "loader.h"
 
 
-u8 *code_buffer = (u8 *)0x90100000;
-u8 *trampoline_buffer = (u8 *)0x80001800;
+static u8 *const code_buffer = (u8 *)0x90100000;
+static u8 *const trampoline_buffer = (u8 *)0x80001800;
 
 static void dsp_reset(void)
 {
@@ -107,7 +107,7 @@ int main(void)
 	video_init();
 	usbgecko_init();
 
-	printf("Twilight Hack %s\n", version);
+	printf("savezelda %s\n", version);
 	printf("\n");
 	printf("Copyright 2008,2009  Segher Boessenkool\n");
 	printf("Copyright 2008  Haxx Enterprises\n");

@@ -9,8 +9,8 @@ sub printline {
 	print $x;
 }
 
-$name = "Twilight Hack by Team Twiizers";
-$version = `cat .version`;
+$name = "Indiana Pwns, by Team Twiizers";
+$version = `cat ../.version`;
 
 printline $name;
 printline $version;
