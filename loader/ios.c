@@ -243,6 +243,7 @@ static void releasse_old_stm_callback(void)
 	}
 
 	int err = ios_ioctl(fd, 0x3002, 0, 0, 0, 0);
+	if (err < 0 && err != -6)
 		printf("Eventhook release failed with code %d\n", err);
 
 	ios_close(fd);
