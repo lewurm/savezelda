@@ -52,6 +52,7 @@ all: FORCE .version
 	$(Q)$(MAKE) -C loader
 	$(Q)$(MAKE) -C twilight
 	$(Q)$(MAKE) -C lego
+	$(Q)$(MAKE) -C batman
 
 FORCE:
 
@@ -60,3 +61,4 @@ clean:
 	$(MAKE) -C loader clean
 	$(MAKE) -C twilight clean
 	$(MAKE) -C lego clean
+	$(MAKE) -C batman clean
