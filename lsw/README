@@ -1,0 +1,41 @@
+Copyright 2011  roto <roto@mozy.org>
+Copyright 2011  Bernhard Urban <lewurm@gmail.com>
+Copyright 2008-2009  Segher Boessenkool  <segher@kernel.crashing.org>
+Copyright 2008  Haxx Enterprises  <bushing@gmail.com>
+Copyright 2008  Hector Martin "marcan"  <marcan@marcansoft.com>
+Copyright 2003-2004  Felix Domke <tmbinc@elitedvb.net>
+
+This code is licensed to you under the terms of the GNU GPL, version 2;
+see file COPYING or http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+
+Console font created by Freddy Leitner [www.dreamer.de], based on
+the Droid Sans Mono font [www.droidfonts.com].
+
+--
+
+This is the Lego Star Wars exploit known as "Return of the Jodi". This exploit
+works on all versions of the game (including 1.01) in all regions that are
+currently known to have a release.
+
+Instructions:
+
+1. Copy the save to your SD card.
+2. Put a "boot.elf" (such as the HackMii installer or Homebrew Channel) into the
+   ROOT of your SD card (not into any folder).
+3. Copy the save to your Wii system, make sure you have a save for this game
+   already on your system, otherwise you won't be able to copy the exploit
+   save over.
+4. Start up the game, load the first save slot (on the left, at 0.0%)
+5. As soon as the level loads, run to the right and you'll see two characters
+   floating. Run to the area in front of them and you'll see "Return of Jodi"
+   show up, press the "A" button on your Wiimote and your boot.elf will run!
+
+
+Credits: 
+Team Twiizers - Original LIJ release, source, savezelda (and many other things).
+roto - Developing and testing this exploit.
+lewurm - Cleaning up, fixing bugs, testing.
+drmr - Awesome banner/icons!
+
+Thanks:
+Everyone!
